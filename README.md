@@ -94,5 +94,5 @@
 
 **🚀 Ready to Transform Your AI Strategy?**
 
-[![Contact Me](https://img.shields.io/badge/Contact-Us-00D4AA?style=for-the-badge&logo=mail&logoColor=white)](mailto:corderio.vonner@outlook.com)
+[![Contact Me](https://img.shields.io/badge/Contact-Me-00D4AA?style=for-the-badge&logo=mail&logoColor=white)](mailto:corderio.vonner@outlook.com)
 [![Project Sample](https://img.shields.io/badge/Project-Sample-181717?style=for-the-badge&logo=github&logoColor=white)](./A.I%20Consulting%20-%20Medical%20SaaS.md)
