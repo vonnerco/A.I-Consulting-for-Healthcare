@@ -8,8 +8,6 @@
 ## Offerings
 - 🔐 Private GitHub repo + enterprise assets
 - 🏗️ Architecture templates (IaC/MLOps)
-- 📊 Jupyter notebooks & accelerators
-- 🤝 Issue-driven collaboration
 
 ## Client Overview: Medical SaaS
 **Challenge:** Medical terminology barriers between providers/patients
@@ -61,8 +59,8 @@
 |:---:|:---:|:---:|
 | 🔄 Option 1 | Continue Access | Most appropriate USD retainer |
 | 🏆 Option 2 | Own It Outright | One-time most appropriate USD |
-| 🎓 Option 3 | Further Consulting | Same cost structure as 1 & 2 |
-| 🚀 Option 4 | Build & Implement | Same cost structure as 1–3 (milestone-based) |
+| 🎓 Option 3 | Further Consulting | Consulting fees per session|
+| 🚀 Option 4 | Build & Implement | I do everything end-to-end (milestone-based) |
 
 [![Contact Me](https://img.shields.io/badge/Contact-Me-00D4AA?style=for-the-badge&logo=mail&logoColor=white)](mailto:corderio.vonner@outlook.com)
 [![Github Project](https://img.shields.io/badge/Github-Project-181717?style=for-the-badge&logo=github&logoColor=white)](./A.I%20Consulting%20-%20Medical%20SaaS.md)
