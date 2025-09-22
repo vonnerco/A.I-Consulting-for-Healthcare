@@ -57,10 +57,9 @@
 ## Pricing Options
 | Option | Model | Structure |
 |:---:|:---:|:---:|
-| 🔄 Option 1 | Continue Access | Most appropriate USD retainer |
-| 🏆 Option 2 | Own It Outright | One-time most appropriate USD |
-| 🎓 Option 3 | Further Consulting | Consulting fees per session|
-| 🚀 Option 4 | Build & Implement | I do everything end-to-end (milestone-based) |
+| 🔄 Option 1 | Continue Access | Retain access past 7 days | $50 Per 7 days
+| 🏆 Option 2 | Own It Outright | One-time most appropriate USD | $250
+
 
 [![Contact Me](https://img.shields.io/badge/Contact-Me-00D4AA?style=for-the-badge&logo=mail&logoColor=white)](mailto:corderio.vonner@outlook.com)
 [![Github Project](https://img.shields.io/badge/Github-Project-181717?style=for-the-badge&logo=github&logoColor=white)](./A.I%20Consulting%20-%20Medical%20SaaS.md)
