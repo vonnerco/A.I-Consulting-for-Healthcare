@@ -1,4 +1,4 @@
-# 🚀 A.I-Consulting Excellence 2025
+# A.I Consulting for Healthcare in 2025
 > **Enterprise-Grade AI Transformation Services**
 
 ![AI Consulting](https://img.shields.io/badge/AI-Consulting-00D4AA?style=for-the-badge&logo=openai&logoColor=white)
