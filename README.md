@@ -55,8 +55,8 @@
 - 🎯 Marketing & CX (personalization)
 
 ## Pricing Options
-| Option | Model | Structure |
-|:---:|:---:|:---:|
+| Option | Model | Structure | Price |
+|:---:|:---:|:---:|:---:|
 | 🔄 Option 1 | Continue Access | Retain access past 7 days | $50 Per 7 days |
 | 🏆 Option 2 | Own It Outright | One-time most appropriate USD | $250 |
 
