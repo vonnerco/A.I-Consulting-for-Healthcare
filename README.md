@@ -5,14 +5,17 @@
 [![GitHub](https://img.shields.io/badge/GitHub-Project-181717?style=for-the-badge&logo=github&logoColor=white)](./A.I%20Consulting%20-%20Medical%20SaaS.md)
 ![Cloud](https://img.shields.io/badge/Cloud-Native-FF6B6B?style=for-the-badge&logo=amazonaws&logoColor=white)
 
-## 🎯 Executive Context & Offerings
+## Offerings
+- 🔐 Private GitHub repo + enterprise assets
+- 🏗️ Architecture templates (IaC/MLOps)
+- 📊 Jupyter notebooks & accelerators
+- 🤝 Issue-driven collaboration
 
-### ⏱️ **14-Day Premium Access**
-- 🔐 **Private GitHub Repository** with enterprise assets
-- 🏗️ **Architecture Templates** (IaC/MLOps ready)
-- 📊 **Jupyter Notebooks** & reusable accelerators
-- 🤝 **Issue-driven collaboration** & PR reviews
-- 📝 **Real-time doc co-editing** for seamless handoff
+## Client Overview: Medical SaaS
+**Challenge:** Medical terminology barriers between providers/patients
+**Solution:** AI translates complex medical conversations to patient-friendly language + TTS
+**Impact:** Better comprehension, accessibility, clinical efficiency
+[Portfolio Example](./A.I%20Consulting%20-%20Medical%20SaaS.md)
 
 ---
 
@@ -34,65 +37,32 @@
 
 | **Consulting Leader** | **Key Differentiator** | **Proven Impact** |
 |:---:|:---:|:---:|
-| 🎯 **McKinsey QuantumBlack** | Scaling GenAI beyond pilots | Proven frameworks to embed AI in operating models |
-| 🔒 **Accenture** | Responsible AI by design | Azure AI Foundry: 20% cost reduction, 50% faster build |
-| 🏅 **Deloitte** | 2025 IDC MarketScape Leader | Analytics + automation + AI for enterprise outcomes |
-| 📈 **Bain & Co.** | Industry-specific playbooks | Accelerated revenue & retention via tailored use cases |
-| 🤖 **IBM Consulting** | watsonx studio governance | End-to-end AI services with lifecycle management |
+| Measurable Impact | Revenue/efficiency gains | 8-12 weeks |
+| Production AI | SLAs + monitoring | Ongoing |
+| Compliance | EU AI Act ready | Built-in |
 
-## 🎯 Objectives & Success Criteria
-
-| **Objective** | **Success Metric** | **Timeline** |
+## Phases
+| Phase | Duration | Deliverables |
 |:---:|:---:|:---:|
-| 📊 **Measurable Impact** | Revenue, efficiency, risk reduction from 2-3 prioritized AI use cases | 8-12 weeks |
-| 🛡️ **Production-Grade AI** | SLAs, monitoring, human-in-the-loop guardrails | Ongoing |
-| ⚖️ **Compliance Ready** | EU AI Act & Responsible AI frameworks alignment | Built-in |
+| Strategy | Weeks 0-2 | Workshops, KPI alignment |
+| Architecture | Weeks 1-4 | Infrastructure, pipelines |
+| Pilots | Weeks 3-8 | Prototypes, testing |
+| Scale | Weeks 6-12 | Optimization, handoff |
 
-## 📋 Scope of Work: Phased Approach
+## Use Cases
+- 🤖 Agentic Customer Ops (ticket triage)
+- 📚 Knowledge-RAG Assistants (policy answers)
+- 📊 Forecasting & Optimization (demand/pricing)
+- ⚖️ Risk & Compliance (audit-ready AI)
+- 🎯 Marketing & CX (personalization)
 
-### 🚀 **Phase Breakdown**
-
-| **Phase** | **Duration** | **Key Deliverables** |
+## Pricing Options
+| Option | Model | Structure |
 |:---:|:---:|:---:|
-| 🎯 **Strategy & POV** | Weeks 0-2 | Executive workshops, KPI alignment |
-| 🏗️ **Architecture & MLOps** | Weeks 1-4 | Baseline infrastructure, pipelines |
-| 🧪 **Pilot(s) Live** | Weeks 3-8 | Working prototypes, testing |
-| 📈 **Scale & CoE Launch** | Weeks 6-12 | Optimization, training, handoff |
-
-## 🎛️ Use-Case Menu
-
-| **Use Case** | **Description** | **Impact** | **Complexity** |
-|:---:|:---:|:---:|:---:|
-| 🤖 **Agentic Customer Ops** | Ticket triage & resolution with human oversight | High efficiency gains | Medium |
-| 📚 **Knowledge-RAG Assistants** | Policy-grounded, explainable workforce answers | Reduced training time | Low-Medium |
-| 📊 **Forecasting & Optimization** | Demand prediction, dynamic pricing | Revenue optimization | High |
-| ⚖️ **Risk & Compliance** | Audit-ready AI, fairness monitoring | Risk reduction | High |
-| 🎯 **Marketing & CX** | Personalized experiences, omnichannel | Customer satisfaction | Medium |
-
-## 🛡️ Governance & Responsible AI (Embedded)
-
-### 🔒 **Compliance Framework**
-
-| **Policy-to-Control Mapping** | **Testing & Evaluation** | **Audit & Reporting** |
-|:---:|:---:|:---:|
-| Automated policy translation | Fairness/explainability tests | Regulator-ready artifacts |
-| Control implementation tracking | Red-team evaluations | Lifecycle risk tiering |
-| Compliance dashboard | Continuous monitoring | EU AI Act compliance |
-
-> **⚖️ Built-in Compliance:** EU AI Act readiness with automated monitoring and reporting
-
-## 💼 Next Steps & Pricing Options
-
-| **Option** | **Model** | **Pricing Structure** |
-|:---:|:---:|:---:|
-| 🔄 **Option 1** | Continue Access | Most appropriate USD retainer |
-| 🏆 **Option 2** | Own It Outright | One-time most appropriate USD |
-| 🎓 **Option 3** | Further Consulting | Same cost structure as 1 & 2 |
-| 🚀 **Option 4** | Build & Implement | Same cost structure as 1–3 (milestone-based) |
-
----
-
-**🚀 Ready to Transform Your AI Strategy?**
+| 🔄 Option 1 | Continue Access | Most appropriate USD retainer |
+| 🏆 Option 2 | Own It Outright | One-time most appropriate USD |
+| 🎓 Option 3 | Further Consulting | Same cost structure as 1 & 2 |
+| 🚀 Option 4 | Build & Implement | Same cost structure as 1–3 (milestone-based) |
 
 [![Contact Me](https://img.shields.io/badge/Contact-Me-00D4AA?style=for-the-badge&logo=mail&logoColor=white)](mailto:corderio.vonner@outlook.com)
 [![Github Project](https://img.shields.io/badge/Github-Project-181717?style=for-the-badge&logo=github&logoColor=white)](./A.I%20Consulting%20-%20Medical%20SaaS.md)
