@@ -57,8 +57,8 @@
 ## Pricing Options
 | Option | Model | Structure |
 |:---:|:---:|:---:|
-| 🔄 Option 1 | Continue Access | Retain access past 7 days | $50 Per 7 days
-| 🏆 Option 2 | Own It Outright | One-time most appropriate USD | $250
+| 🔄 Option 1 | Continue Access | Retain access past 7 days | $50 Per 7 days |
+| 🏆 Option 2 | Own It Outright | One-time most appropriate USD | $250 |
 
 
 [![Contact Me](https://img.shields.io/badge/Contact-Me-00D4AA?style=for-the-badge&logo=mail&logoColor=white)](mailto:corderio.vonner@outlook.com)
