@@ -1,8 +1,8 @@
 # A.I Consulting for Healthcare in 2025
 > **Enterprise-Grade AI Transformation Services**
 
-![AI Consulting](https://img.shields.io/badge/AI-Consulting-00D4AA?style=for-the-badge&logo=openai&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-Collaboration-181717?style=for-the-badge&logo=github&logoColor=white)
+[![AI Consulting](https://img.shields.io/badge/AI-Consulting-00D4AA?style=for-the-badge&logo=openai&logoColor=white)](mailto:corderio.vonner@outlook.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Project-181717?style=for-the-badge&logo=github&logoColor=white)](./A.I%20Consulting%20-%20Medical%20SaaS.md)
 ![Cloud](https://img.shields.io/badge/Cloud-Native-FF6B6B?style=for-the-badge&logo=amazonaws&logoColor=white)
 
 ## 🎯 Executive Context & Offerings
@@ -95,4 +95,4 @@
 **🚀 Ready to Transform Your AI Strategy?**
 
 [![Contact Me](https://img.shields.io/badge/Contact-Me-00D4AA?style=for-the-badge&logo=mail&logoColor=white)](mailto:corderio.vonner@outlook.com)
-[![Project Sample](https://img.shields.io/badge/Project-Sample-181717?style=for-the-badge&logo=github&logoColor=white)](./A.I%20Consulting%20-%20Medical%20SaaS.md)
+[![Github Project](https://img.shields.io/badge/Project-Sample-181717?style=for-the-badge&logo=github&logoColor=white)](./A.I%20Consulting%20-%20Medical%20SaaS.md)
