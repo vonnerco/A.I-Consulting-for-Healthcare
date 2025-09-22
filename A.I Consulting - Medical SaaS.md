@@ -8,13 +8,13 @@ Convert "Original Medical Conversation" into "Patient-Friendly Version"
 ## Patient-Friendly UI & UX
 
 
-### 1st Card: Original Medical Conversation
+### Original Medical Conversation
 
 Next attention was turned towards the left [pelvic brim](https://my.clevelandclinic.org/health/body/pelvis) where the [sigmoid colon](https://my.clevelandclinic.org/health/body/22134-colon-large-intestine) was mobilized off the [abdominal sidewall](https://my.clevelandclinic.org/health/body/21755-abdominal-muscles) from its [adhesions](https://my.clevelandclinic.org/health/diseases/15254-abdominal-adhesions) using a combination of cold sharp [dissection](https://medlineplus.gov/ency/article/002349.htm) and blunt dissection and judicious [monopolar energy](https://www.aspensurgical.com/Resources/Documents/Articles/bipolar-electrosurgery-vs-monopolar-electrosurgery). Attention was then turned toward the right [pelvic brim](https://my.clevelandclinic.org/health/body/pelvis). The [adhesions](https://my.clevelandclinic.org/health/diseases/15254-abdominal-adhesions) to the [small bowel](https://my.clevelandclinic.org/health/body/22135-small-intestine) were lysed off the [abdominal sidewall](https://my.clevelandclinic.org/health/body/21755-abdominal-muscles) using a combination of cold sharp [dissection](https://medlineplus.gov/ency/article/002349.htm) and blunt dissection and judicious [monopolar energy](https://www.aspensurgical.com/Resources/Documents/Articles/bipolar-electrosurgery-vs-monopolar-electrosurgery).
 
 Next was turned towards the right [hydrosalpinx](https://my.clevelandclinic.org/health/diseases/24437-hydrosalpinx). Using [monopolar](https://www.aspensurgical.com/Resources/Documents/Articles/bipolar-electrosurgery-vs-monopolar-electrosurgery) shears and [bipolar energy](https://www.aspensurgical.com/Resources/Documents/Articles/bipolar-electrosurgery-vs-monopolar-electrosurgery), the [hydrosalpinx](https://my.clevelandclinic.org/health/diseases/24437-hydrosalpinx) was dissected from the [mesosalpinx](https://www.imaios.com/en/e-anatomy/anatomical-structures/mesosalpinx-1541222256#) taking care to avoid injury to the right [ovary](https://my.clevelandclinic.org/health/body/22999-ovaries) and [IP ligament](https://www.imaios.com/en/e-anatomy/anatomical-structures/suspensory-ligament-of-left-ovary-infundibulopelvic-ligament-female-121132432#). The [hydrosalpinx](https://my.clevelandclinic.org/health/diseases/24437-hydrosalpinx) was removed from the [abdominal cavity](https://my.clevelandclinic.org/health/body/22894-peritoneum) under direct [laparoscopic](https://my.clevelandclinic.org/health/procedures/4819-laparoscopy) visualization.
 
-### 2nd Card: Patient-Friendly Version
+### Patient-Friendly Version
 
 **What happened:** [🔊 Select Text to Listen with Audio]
 
