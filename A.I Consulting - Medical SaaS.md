@@ -1,8 +1,8 @@
 # A.I Consulting - Medical SaaS
 
 ## Medical Terminology Translation
-
-Convert "Original Medical Conversation" into "Patient-Friendly Version"
+## 
+## Convert "Original Medical Conversation" into "Patient-Friendly Version"
 
 
 ## Patient-Friendly UI & UX
