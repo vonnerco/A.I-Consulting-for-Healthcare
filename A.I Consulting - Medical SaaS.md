@@ -10,7 +10,7 @@
 
 ## 💡 Patient-Friendly UI & UX
 
-### 📖 Original Medical Conversation
+### 📖 Original Medical Conversation 
 
 Next attention was turned towards the left [pelvic brim](https://my.clevelandclinic.org/health/body/pelvis) where the [sigmoid colon](https://my.clevelandclinic.org/health/body/22134-colon-large-intestine) was mobilized off the [abdominal sidewall](https://my.clevelandclinic.org/health/body/21755-abdominal-muscles) from its [adhesions](https://my.clevelandclinic.org/health/diseases/15254-abdominal-adhesions) using a combination of cold sharp [dissection](https://medlineplus.gov/ency/article/002349.htm) and blunt dissection and judicious [monopolar energy](https://www.aspensurgical.com/Resources/Documents/Articles/bipolar-electrosurgery-vs-monopolar-electrosurgery). Attention was then turned toward the right [pelvic brim](https://my.clevelandclinic.org/health/body/pelvis). The [adhesions](https://my.clevelandclinic.org/health/diseases/15254-abdominal-adhesions) to the [small bowel](https://my.clevelandclinic.org/health/body/22135-small-intestine) were lysed off the [abdominal sidewall](https://my.clevelandclinic.org/health/body/21755-abdominal-muscles) using a combination of cold sharp [dissection](https://medlineplus.gov/ency/article/002349.htm) and blunt dissection and judicious [monopolar energy](https://www.aspensurgical.com/Resources/Documents/Articles/bipolar-electrosurgery-vs-monopolar-electrosurgery).
 
