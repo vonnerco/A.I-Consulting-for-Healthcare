@@ -17,7 +17,7 @@
 
 ---
 
-> **📋 Client Overview: Medical SaaS Transformation**
+> **📋 Client Overview: Medical Language Translation Platform**
 >
 > **Challenge:** Healthcare organizations struggle with complex medical terminology that creates communication barriers between providers and patients, leading to reduced comprehension, compliance issues, and patient satisfaction concerns.
 >
