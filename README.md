@@ -1,7 +1,7 @@
 # A.I Consulting for Healthcare in 2025
 > **Enterprise-Grade AI Transformation Services**
 
-[![AI Consulting](https://img.shields.io/badge/AI-Consulting-00D4AA?style=for-the-badge&logo=openai&logoColor=white)](mailto:corderio.vonner@outlook.com)
+[![AI Consulting](https://img.shields.io/badge/AI-Consulting-00D4AA?style=for-the-badge&logo=openai&logoColor=white)](https://github.com/vonnerco/A.I-Consulting)
 
 
 ## Offerings
