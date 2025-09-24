@@ -9,6 +9,7 @@
 - 🔐 Private GitHub Repository Access
 
 ## Client Overview: Medical SaaS
+
 **Challenge:** Medical terminology barriers between providers/patients
 
 **Solution:** AI translates complex medical conversations to patient-friendly language + TTS
