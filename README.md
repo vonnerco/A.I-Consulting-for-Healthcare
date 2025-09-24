@@ -3,16 +3,15 @@
 
 [![AI Consulting](https://img.shields.io/badge/AI-Consulting-00D4AA?style=for-the-badge&logo=openai&logoColor=white)](mailto:corderio.vonner@outlook.com)
 [![GitHub](https://img.shields.io/badge/GitHub-Project-181717?style=for-the-badge&logo=github&logoColor=white)](./A.I%20Consulting%20-%20Medical%20SaaS.md)
-![Cloud](https://img.shields.io/badge/Cloud-Native-FF6B6B?style=for-the-badge&logo=amazonaws&logoColor=white)
+
 
 ## Offerings
-- 🔐 Private GitHub Repo Access
+- 🔐 Private GitHub Repository Access
 
 ## Client Overview: Medical SaaS
 **Challenge:** Medical terminology barriers between providers/patients
 **Solution:** AI translates complex medical conversations to patient-friendly language + TTS
 **Impact:** Better comprehension, accessibility, clinical efficiency
-[Medical SaaS Sample](./A.I%20Consulting%20-%20Medical%20SaaS.md)
 
 ---
 
@@ -28,15 +27,14 @@
 > - ✅ **Clinical Efficiency**: Automated translation reduces provider explanation time
 > - ✅ **Compliance Ready**: Authentic medical terminology linked to trusted healthcare sources
 >
-> **Portfolio Example:** [Medical SaaS Implementation](./A.I%20Consulting%20-%20Medical%20SaaS.md) - Live demonstration of patient-friendly medical conversation translation with interactive audio features.
+> **Healthcare SaaS Sample:** [Medical SaaS Implementation](./A.I%20Consulting%20-%20Medical%20SaaS.md) - Previewed demonstration of patient-friendly medical conversation translation with interactive TTS features.
 
 ## 🏆 Why This Proposal: Best-in-Class 2025 Benchmarks
 
-| **Consulting Leader** | **Key Differentiator** | **Proven Impact** |
+| **Consulting Leader** | 
 |:---:|:---:|:---:|
-| Measurable Impact | Revenue/efficiency gains | 8-12 weeks |
-| Production AI | SLAs + monitoring | Ongoing |
-| Compliance | EU AI Act ready | Built-in |
+| Production AI | 
+| Compliance | 
 
 ## Phases
 | Phase | Duration | Deliverables |
