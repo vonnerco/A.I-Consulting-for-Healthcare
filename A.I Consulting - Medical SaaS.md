@@ -4,7 +4,7 @@
 
 ## 📋 Medical Terminology Translation
 
-**Goal:** Convert complex medical conversations into accessible, patient-friendly explanations
+**Goal:** Convert complex medical conversations into patient-friendly explanations
 
 ---
 
