@@ -2,10 +2,9 @@
 > **Enterprise-Grade AI Transformation Services**
 
 [![AI Consulting](https://img.shields.io/badge/AI-Consulting-00D4AA?style=for-the-badge&logo=openai&logoColor=white)](mailto:corderio.vonner@outlook.com)
-[![GitHub](https://img.shields.io/badge/Medical-SaaS-Project-181717?style=for-the-badge&logo=github&logoColor=white)](./A.I%20Consulting%20-%20Medical%20SaaS.md)
 
 
-## Of ferings
+## Offerings
 - 🔐 Private GitHub Repository Access
 
 ## Client Overview: Medical SaaS
