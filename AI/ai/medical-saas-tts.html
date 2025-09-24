@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical SaaS - Patient-Friendly Version with TTS</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f8f9fa;
+        }
+
+        .patient-card {
+            background: white;
+            border: 2px solid #e9ecef;
+            border-radius: 12px;
+            padding: 30px;
+            margin: 20px 0;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .tts-btn, .play-all-btn {
+            background: #0066cc;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            padding: 8px 12px;
+            margin: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: all 0.2s ease;
+        }
+
+        .tts-btn:hover, .play-all-btn:hover {
+            background: #0052a3;
+            transform: translateY(-1px);
+        }
+
+        .tts-btn:focus, .play-all-btn:focus {
+            outline: 3px solid #ffd700;
+            outline-offset: 2px;
+        }
+
+        .play-all-btn {
+            background: #28a745;
+            font-size: 16px;
+            padding: 12px 20px;
+            margin-bottom: 20px;
+        }
+
+        .play-all-btn:hover {
+            background: #218838;
+        }
+
+        .controls {
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 20px 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .control-btn {
+            background: #6c757d;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            padding: 6px 12px;
+            cursor: pointer;
+            font-size: 12px;
+        }
+
+        .control-btn:hover {
+            background: #5a6268;
+        }
+
+        .control-btn.active {
+            background: #28a745;
+        }
+
+        .stop-btn, .pause-btn {
+            background: #dc3545;
+        }
+
+        .stop-btn:hover, .pause-btn:hover {
+            background: #c82333;
+        }
+
+        .section {
+            margin: 20px 0;
+            padding: 15px;
+            border-left: 4px solid #0066cc;
+            background: #f8f9fa;
+        }
+
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+        }
+
+        h2 {
+            color: #34495e;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+
+        .status {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: #17a2b8;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            display: none;
+        }
+
+        @media (max-width: 768px) {
+            .controls {
+                flex-direction: column;
+            }
+
+            .tts-btn, .play-all-btn {
+                width: 100%;
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="status" id="status">🔊 Playing audio...</div>
+
+    <h1>🏥 A.I Consulting - Medical SaaS</h1>
+    <h2>Patient-Friendly Medical Information</h2>
+
+    <div class="patient-card">
+        <button class="play-all-btn" onclick="playAll()" id="playAllBtn">
+            ▶️ Play All Sections
+        </button>
+
+        <div class="controls">
+            <button class="control-btn stop-btn" onclick="stopAudio()">⏹️ Stop</button>
+            <button class="control-btn pause-btn" onclick="togglePause()" id="pauseBtn">⏸️ Pause</button>
+
+            <span style="margin-left: 20px; font-weight: bold;">Speed:</span>
+            <button class="control-btn speed-btn" onclick="setSpeed(0.8)" data-speed="0.8">0.8x</button>
+            <button class="control-btn speed-btn active" onclick="setSpeed(1.0)" data-speed="1.0">1.0x</button>
+            <button class="control-btn speed-btn" onclick="setSpeed(1.2)" data-speed="1.2">1.2x</button>
+        </div>
+
+        <div class="section">
+            <h3>
+                What happened:
+                <button class="tts-btn" onclick="readSection('what-happened')">🔊 Listen</button>
+            </h3>
+            <div id="what-happened">
+                The doctor worked on the left side of your lower belly, carefully separating your intestine from scar tissue that was stuck to your belly wall. They used special tools to cut and gently push the scar tissue away, plus a small electrical tool to safely remove it. Then they did the same thing on the right side.
+                <br><br>
+                Next, they found a Fallopian Tube filled with fluid on your right side. They carefully removed this Fallopian Tube using special tools, making sure not to hurt your ovary or nearby body parts. The fluid-filled Fallopian Tube was completely taken out.
+            </div>
+        </div>
+
+        <div class="section">
+            <h3>
+                Next steps:
+                <button class="tts-btn" onclick="readSection('next-steps')">🔊 Listen</button>
+            </h3>
+            <div id="next-steps">
+                Your medical team will watch how you're healing and tell you what to do. You'll need to rest and eat certain foods to help your body get better.
+            </div>
+        </div>
+
+        <div class="section">
+            <h3>
+                What to expect:
+                <button class="tts-btn" onclick="readSection('what-expect')">🔊 Listen</button>
+            </h3>
+            <div id="what-expect">
+                You might feel some pain as your body heals from the surgery. Your doctors will talk to you about ways to manage the pain and what activities are safe for you to do while you recover.
+            </div>
+        </div>
+    </div>
+
+    <div class="patient-card">
+        <h2>📚 Medical Terms - Simplified</h2>
+        <div style="background: #e8f4f8; padding: 15px; border-radius: 8px; margin-bottom: 20px;">
+            <button class="play-all-btn" onclick="readAllTerms()">🔊 Read All Medical Terms</button>
+        </div>
+
+        <div class="section">
+            <strong>Hydrosalpinx:</strong> <em>high-dro-sal-pinks</em> - Tube filled with fluid near the ovary
+            <button class="tts-btn" onclick="readTerm('Hydrosalpinx: Tube filled with fluid near the ovary')">🔊</button>
+        </div>
+
+        <div class="section">
+            <strong>Laparoscopic:</strong> <em>lap-ah-ro-scop-ic</em> - Surgery through tiny holes instead of big cuts
+            <button class="tts-btn" onclick="readTerm('Laparoscopic: Surgery through tiny holes instead of big cuts')">🔊</button>
+        </div>
+
+        <div class="section">
+            <strong>Adhesions:</strong> <em>ad-hee-zhuns</em> - Scar tissue that sticks organs together
+            <button class="tts-btn" onclick="readTerm('Adhesions: Scar tissue that sticks organs together')">🔊</button>
+        </div>
+
+        <div class="section">
+            <strong>Ovary:</strong> - Organ that makes eggs in women
+            <button class="tts-btn" onclick="readTerm('Ovary: Organ that makes eggs in women')">🔊</button>
+        </div>
+    </div>
+
+    <script>
+        const synth = window.speechSynthesis;
+        let currentUtterance = null;
+        let isPaused = false;
+        let currentRate = 1.0;
+        let isPlaying = false;
+
+        // Medical pronunciation dictionary
+        const medicalTerms = {
+            'hydrosalpinx': 'high-dro-sal-pinks',
+            'laparoscopic': 'lap-ah-ro-scop-ic',
+            'adhesions': 'ad-hee-zhuns',
+            'fallopian': 'fuh-loh-pee-an'
+        };
+
+        function showStatus(message) {
+            const status = document.getElementById('status');
+            status.textContent = message;
+            status.style.display = 'block';
+            setTimeout(() => {
+                status.style.display = 'none';
+            }, 3000);
+        }
+
+        function processText(text) {
+            let processedText = text;
+            Object.keys(medicalTerms).forEach(term => {
+                const regex = new RegExp(`\\b${term}\\b`, 'gi');
+                processedText = processedText.replace(regex, medicalTerms[term]);
+            });
+            return processedText;
+        }
+
+        function speakText(text, options = {}) {
+            if (!synth) {
+                alert('Text-to-speech is not supported in this browser.');
+                return;
+            }
+
+            if (synth.speaking) {
+                synth.cancel();
+            }
+
+            const processedText = processText(text);
+            const utterance = new SpeechSynthesisUtterance(processedText);
+            utterance.rate = options.rate || currentRate;
+            utterance.pitch = options.pitch || 1;
+            utterance.lang = 'en-US';
+
+            utterance.onstart = () => {
+                isPlaying = true;
+                updatePlayButton(true);
+                showStatus('🔊 Playing audio...');
+            };
+
+            utterance.onend = () => {
+                isPlaying = false;
+                isPaused = false;
+                updatePlayButton(false);
+                currentUtterance = null;
+            };
+
+            utterance.onerror = (event) => {
+                console.error('Speech synthesis error:', event.error);
+                isPlaying = false;
+                updatePlayButton(false);
+                showStatus('❌ Audio error occurred');
+            };
+
+            currentUtterance = utterance;
+            synth.speak(utterance);
+        }
+
+        function updatePlayButton(playing) {
+            const playAllBtn = document.getElementById('playAllBtn');
+            if (playAllBtn) {
+                playAllBtn.innerHTML = playing ? '⏸️ Pause All' : '▶️ Play All Sections';
+            }
+        }
+
+        function readSection(sectionId) {
+            const element = document.getElementById(sectionId);
+            if (element) {
+                const text = element.innerText.trim();
+                speakText(text, { rate: 0.9 }); // Slower for medical content
+            }
+        }
+
+        function readTerm(termText) {
+            speakText(termText, { rate: 0.8 }); // Even slower for definitions
+        }
+
+        async function playAll() {
+            if (isPlaying && !isPaused) {
+                synth.pause();
+                isPaused = true;
+                updatePlayButton(false);
+                return;
+            }
+
+            if (isPaused) {
+                synth.resume();
+                isPaused = false;
+                updatePlayButton(true);
+                return;
+            }
+
+            if (!synth) {
+                alert('Text-to-speech is not supported in this browser.');
+                return;
+            }
+
+            synth.cancel();
+            const sections = ['what-happened', 'next-steps', 'what-expect'];
+
+            for (const sectionId of sections) {
+                const element = document.getElementById(sectionId);
+                if (!element) continue;
+
+                const text = element.innerText.trim();
+                if (!text) continue;
+
+                await new Promise((resolve) => {
+                    const utterance = new SpeechSynthesisUtterance(processText(text));
+                    utterance.rate = currentRate;
+                    utterance.lang = 'en-US';
+                    utterance.onend = resolve;
+                    utterance.onerror = resolve;
+
+                    currentUtterance = utterance;
+                    synth.speak(utterance);
+                });
+            }
+        }
+
+        async function readAllTerms() {
+            const terms = [
+                'Hydrosalpinx: Tube filled with fluid near the ovary',
+                'Laparoscopic: Surgery through tiny holes instead of big cuts',
+                'Adhesions: Scar tissue that sticks organs together',
+                'Ovary: Organ that makes eggs in women'
+            ];
+
+            for (const term of terms) {
+                await new Promise((resolve) => {
+                    const utterance = new SpeechSynthesisUtterance(processText(term));
+                    utterance.rate = 0.8;
+                    utterance.lang = 'en-US';
+                    utterance.onend = resolve;
+                    utterance.onerror = resolve;
+                    synth.speak(utterance);
+                });
+
+                // Small pause between terms
+                await new Promise(resolve => setTimeout(resolve, 500));
+            }
+        }
+
+        function stopAudio() {
+            if (synth.speaking) {
+                synth.cancel();
+            }
+            isPlaying = false;
+            isPaused = false;
+            updatePlayButton(false);
+            currentUtterance = null;
+            showStatus('⏹️ Audio stopped');
+        }
+
+        function togglePause() {
+            const pauseBtn = document.getElementById('pauseBtn');
+
+            if (synth.speaking && !isPaused) {
+                synth.pause();
+                isPaused = true;
+                pauseBtn.innerHTML = '▶️ Resume';
+                showStatus('⏸️ Audio paused');
+            } else if (isPaused) {
+                synth.resume();
+                isPaused = false;
+                pauseBtn.innerHTML = '⏸️ Pause';
+                showStatus('▶️ Audio resumed');
+            }
+        }
+
+        function setSpeed(rate) {
+            // Remove active class from all speed buttons
+            document.querySelectorAll('.speed-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+
+            // Add active class to clicked button
+            document.querySelector(`[data-speed="${rate}"]`).classList.add('active');
+
+            currentRate = rate;
+            showStatus(`⚡ Speed set to ${rate}x`);
+
+            // If currently speaking, restart with new rate
+            if (synth.speaking && currentUtterance) {
+                const text = currentUtterance.text;
+                synth.cancel();
+                speakText(text, { rate: currentRate });
+            }
+        }
+
+        // Keyboard shortcuts
+        document.addEventListener('keydown', (e) => {
+            if (e.code === 'Escape' && synth.speaking) {
+                stopAudio();
+            }
+        });
+
+        // Ensure speech is stopped when page is hidden
+        document.addEventListener('visibilitychange', () => {
+            if (document.hidden && synth.speaking) {
+                stopAudio();
+            }
+        });
+
+        // Check browser support on load
+        window.addEventListener('load', () => {
+            if (!synth) {
+                document.body.innerHTML = '<div style="text-align: center; padding: 50px;"><h2>❌ Text-to-Speech Not Supported</h2><p>Please use Chrome, Firefox, Safari, or Edge for full functionality.</p></div>';
+            } else {
+                showStatus('✅ TTS Ready - Click any 🔊 button to start');
+            }
+        });
+    </script>
+</body>
+</html>
