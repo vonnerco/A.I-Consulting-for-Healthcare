@@ -5,12 +5,15 @@
 [![GitHub](https://img.shields.io/badge/Medical-SaaS-Project-181717?style=for-the-badge&logo=github&logoColor=white)](./A.I%20Consulting%20-%20Medical%20SaaS.md)
 
 
-## Offerings
+## Of ferings
 - 🔐 Private GitHub Repository Access
 
 ## Client Overview: Medical SaaS
+
 **Challenge:** Medical terminology barriers between providers/patients
+
 **Solution:** AI translates complex medical conversations to patient-friendly language + TTS
+
 **Impact:** Better comprehension, accessibility, clinical efficiency
 
 ---
@@ -29,27 +32,19 @@
 >
 > **Healthcare SaaS Sample:** [Medical SaaS Implementation](./A.I%20Consulting%20-%20Medical%20SaaS.md) - Previewed demonstration of patient-friendly medical conversation translation with interactive TTS features.
 
-## 🏆 Why This Proposal: Best-in-Class 2025 Benchmarks
-
-| **Consulting Leader** | 
-|:---:|:---:|:---:|
-| Production AI | 
-| Compliance | 
-
+## 🏆 Why This Proposal: Best-in-Class 2025 
 
 ## Use Cases
-- 🤖 Agentic Customer Ops (ticket triage)
 - 📚 Knowledge-RAG Assistants (policy answers)
-- 📊 Forecasting & Optimization (demand/pricing)
 - ⚖️ Risk & Compliance (audit-ready AI)
-- 🎯 Marketing & CX (personalization)
+
 
 ## Pricing Options
 | Option | Model | Structure | Price |
 |:---:|:---:|:---:|:---:|
-| 🔄 Option 1 | Continue Access | Retain access past 7 days | $50 Per 7 days |
-| 🏆 Option 2 | Own It Outright | One-time most appropriate USD | $250 |
+| 🔄 Option 1 | Continue Access | Retain access past 7 days | $100 Per 7 days |
+| 🏆 Option 2 | Own It Outright | One-time most appropriate USD | $500 |
 
 
 [![Contact Me](https://img.shields.io/badge/Contact-Me-00D4AA?style=for-the-badge&logo=mail&logoColor=white)](mailto:corderio.vonner@outlook.com)
-[![Github Project](https://img.shields.io/badge/Github-Project-181717?style=for-the-badge&logo=github&logoColor=white)](./A.I%20Consulting%20-%20Medical%20SaaS.md)
+
