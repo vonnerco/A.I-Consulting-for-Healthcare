@@ -36,13 +36,6 @@
 | Production AI | 
 | Compliance | 
 
-## Phases
-| Phase | Duration | Deliverables |
-|:---:|:---:|:---:|
-| Strategy | Weeks 0-2 | Workshops, KPI alignment |
-| Architecture | Weeks 1-4 | Infrastructure, pipelines |
-| Pilots | Weeks 3-8 | Prototypes, testing |
-| Scale | Weeks 6-12 | Optimization, handoff |
 
 ## Use Cases
 - 🤖 Agentic Customer Ops (ticket triage)
