@@ -29,7 +29,7 @@
 > - ✅ **Clinical Efficiency**: Automated translation reduces provider explanation time
 > - ✅ **Compliance Ready**: Authentic medical terminology linked to trusted healthcare sources
 >
-> **Healthcare SaaS Sample:** **[📋 Medical SaaS Implementation](./A.I%20Consulting%20-%20Medical%20SaaS.md)** - Previewed demonstration of patient-friendly medical conversation translation with interactive TTS features.
+> **Click to View Sample:** **[📋 Medical SaaS Implementation](./A.I%20Consulting%20-%20Medical%20SaaS.md)** - Previewed demonstration of patient-friendly medical conversation translation with interactive TTS features.
 
 ## 🏆 Why This Proposal: Best-in-Class 2025 
 
